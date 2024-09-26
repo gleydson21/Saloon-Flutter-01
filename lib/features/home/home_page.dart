@@ -55,6 +55,8 @@ class HomePage extends StatelessWidget {
     },
   ];
 
+  HomePage({super.key});
+
   // Estilo de texto
   TextStyle get titleStyle => const TextStyle(
         fontSize: 36,
